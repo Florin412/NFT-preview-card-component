@@ -1,0 +1,79 @@
+@use "variables" as *;
+
+.nft-container {
+  max-width: 350px;
+  min-height: auto;
+  background-color: $very-dark-blue-c;
+  padding: 1.65rem;
+  border-radius: $radius-card;
+
+  // Image Section
+  .img-section {
+    .ntf-image {
+      max-width: 100%;
+      height: auto;
+      border-radius: $radius-ntf;
+    }
+  }
+
+  // Content Section
+  .content-section {
+    color: $soft-blue;
+    font-size: 18px;
+
+    .title {
+      color: $white;
+      font-size: 1.4rem;
+      margin-top: $margin;
+      margin-bottom: $margin;
+    }
+
+    .description {
+      font-weight: 300;
+    }
+
+    .offer {
+      // border: 1px solid red;
+      margin-top: $margin;
+      margin-bottom: $margin;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: $margin 0;
+      padding-bottom: calc($margin * 2);
+      border-bottom: 1px solid $very-dark-blue-l;
+
+      .eth-box {
+        display: flex;
+        align-items: center;
+        font-weight: 600;
+        color: $cyan;
+        gap: 0.5rem;
+      }
+
+      .days-left-box {
+        display: flex;
+        align-items: center;
+        font-weight: 400;
+        gap: 0.5rem;
+      }
+    }
+
+    .creator {
+      display: flex;
+      align-items: center;
+      gap: 1.3rem;
+
+      .creator-img-avatar {
+        width: 2.3rem;
+        height: auto;
+        border: 1px solid white;
+        border-radius: 50%;
+      }
+
+      .creator-name {
+        color: $white;
+      }
+    }
+  }
+}

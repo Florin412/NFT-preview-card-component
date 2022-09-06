@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217deg, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.nft-container {
+  max-width: 350px;
+  min-height: auto;
+  background-color: hsl(216deg, 50%, 16%);
+  padding: 1.65rem;
+  border-radius: 1rem;
+}
+.nft-container .img-section .ntf-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}
+.nft-container .content-section {
+  color: hsl(215deg, 51%, 70%);
+  font-size: 18px;
+}
+.nft-container .content-section .title {
+  color: hsl(0deg, 0%, 100%);
+  font-size: 1.4rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+}
+.nft-container .content-section .description {
+  font-weight: 300;
+}
+.nft-container .content-section .offer {
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 0;
+  padding-bottom: 2.4rem;
+  border-bottom: 1px solid hsl(215deg, 32%, 27%);
+}
+.nft-container .content-section .offer .eth-box {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  color: hsl(178deg, 100%, 50%);
+  gap: 0.5rem;
+}
+.nft-container .content-section .offer .days-left-box {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  gap: 0.5rem;
+}
+.nft-container .content-section .creator {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+}
+.nft-container .content-section .creator .creator-img-avatar {
+  width: 2.3rem;
+  height: auto;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.nft-container .content-section .creator .creator-name {
+  color: hsl(0deg, 0%, 100%);
+}
+
+/*# sourceMappingURL=main.css.map */

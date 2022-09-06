@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>NFT preview card component</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/css/main.css" />
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body class="body">
+    <main class="nft-container">
+      <section class="img-section">
+        <img
+          class="ntf-image"
+          src="/images/image-equilibrium.jpg"
+          alt="Nft Image"
+        />
+      </section>
+
+      <section class="content-section">
+        <h1 class="title">Equilibrium #3429</h1>
+        <p class="description">
+          Our Equilibrium collection promotes balance and calm.
+        </p>
+        <div class="offer">
+          <!-- ETH Box -->
+          <div class="eth-box">
+            <img
+              class="eth-icon"
+              src="/images/icon-ethereum.svg"
+              alt="Ethereum Icon"
+            />
+            <div class="eth-price">0.041 ETH</div>
+          </div>
+          <!-- Days Left Box -->
+          <div class="days-left-box">
+            <img
+              class="clock-icon"
+              src="/images/icon-clock.svg"
+              alt="Clock Icon"
+            />
+            <div class="days-left">3 days left</div>
+          </div>
+        </div>
+        <!-- Creator Box -->
+        <div class="creator">
+          <img
+            class="creator-img-avatar"
+            src="/images/image-avatar.png"
+            alt="Avatar image with the creator of nft"
+          />
+          <div>Creation of <span class="creator-name">Jules Wyvern</span></div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
