@@ -39,13 +39,10 @@
   font-weight: 300;
 }
 .nft-container .content-section .offer {
-  margin-top: 1.2rem;
-  margin-bottom: 1.2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 0;
-  padding-bottom: 2.4rem;
   border-bottom: 1px solid hsl(215deg, 32%, 27%);
 }
 .nft-container .content-section .offer .eth-box {
@@ -65,6 +62,7 @@
   display: flex;
   align-items: center;
   gap: 1.3rem;
+  margin-top: 1.2rem;
 }
 .nft-container .content-section .creator .creator-img-avatar {
   width: 2.3rem;

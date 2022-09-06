@@ -33,14 +33,10 @@
     }
 
     .offer {
-      // border: 1px solid red;
-      margin-top: $margin;
-      margin-bottom: $margin;
       display: flex;
       justify-content: space-between;
       align-items: center;
       padding: $margin 0;
-      padding-bottom: calc($margin * 2);
       border-bottom: 1px solid $very-dark-blue-l;
 
       .eth-box {
@@ -63,6 +59,7 @@
       display: flex;
       align-items: center;
       gap: 1.3rem;
+      margin-top: $margin;
 
       .creator-img-avatar {
         width: 2.3rem;
