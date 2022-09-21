@@ -63,6 +63,7 @@
   font-size: 1.4rem;
   margin-top: 1.2rem;
   margin-bottom: 1.2rem;
+  transition: all 0.2s;
 }
 .nft-container .content-section .title:hover {
   cursor: pointer;
@@ -109,6 +110,7 @@
 }
 .nft-container .content-section .creator .creator-name {
   color: hsl(0deg, 0%, 100%);
+  transition: all 0.2s;
 }
 .nft-container .content-section .creator .creator-name:hover {
   cursor: pointer;

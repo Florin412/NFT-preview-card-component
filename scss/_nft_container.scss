@@ -58,6 +58,7 @@
       font-size: 1.4rem;
       margin-top: $margin;
       margin-bottom: $margin;
+      transition: all 0.2s;
 
       &:hover {
         cursor: pointer;
@@ -111,6 +112,7 @@
 
       .creator-name {
         color: $white;
+        transition: all 0.2s;
 
         &:hover {
           cursor: pointer;
