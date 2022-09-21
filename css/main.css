@@ -20,6 +20,7 @@
   padding: 1.65rem;
   border-radius: 1rem;
   margin: 1.5rem;
+  animation: card_flips 0.5s linear backwards;
 }
 .nft-container .img-section {
   position: relative;
@@ -115,6 +116,17 @@
 .nft-container .content-section .creator .creator-name:hover {
   cursor: pointer;
   color: hsl(178deg, 100%, 50%);
+}
+
+@keyframes card_flips {
+  from {
+    transform: scale(0) rotateY(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1) rotateY(360deg);
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -7,6 +7,7 @@
   padding: 1.65rem;
   border-radius: $radius-card;
   margin: 1.5rem;
+  animation: card_flips 0.5s linear backwards;
 
   // Image Section
   .img-section {
